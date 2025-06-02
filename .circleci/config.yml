@@ -18,10 +18,10 @@ jobs:
             - steps:
                 - run:
                     name: "Maven - Build Package"
-                    command: mvn -V -DskipTests=true install
+                    command: mvn -V -DskipTests=true -Dgpg.skip=true install
                 - run:
                     name: "Maven - Test Package"
-                    command: mvn verify
+                    command: mvn -Dgpg.skip=true verify
 
 
 workflows:
