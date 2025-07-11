@@ -16,7 +16,7 @@ If you would like to use this as a base for your own EXPath Package, then you ca
     <parent>
         <groupId>xyz.elemental.expath</groupId>
         <artifactId>elemental-expath-package-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <relativePath/>
     </parent>
 ```
